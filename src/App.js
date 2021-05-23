@@ -3,10 +3,7 @@ import "./index.css";
 
 
   function myfunc(){
-    fetch('https://testsetcookie.azurewebsites.net/api/testsetcookie').then(
-      response=>{
-        return response.json();
-    })
+    fetch('https://testsetcookie.azurewebsites.net/api/testsetcookie')
     console.log('The link was clicked.');
   };
  
