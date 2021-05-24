@@ -3,7 +3,7 @@ import "./index.css";
 
 
   function myfunc(){
-    fetch('https://testsetcookie.azurewebsites.net/api/testsetcookie', {credentials: 'include'});
+    fetch('https://testsetcookie.azurewebsites.net/api/testsetcookie');
     console.log('The link was clicked.');
   };
  
